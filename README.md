@@ -1,1 +1,1 @@
-C++ program for Affine Cryptography algorithm, including both encoding and decoding algorithms.
+C++ program for Affine Cryptograph algorithm, including both encoding and decoding algorithms.
