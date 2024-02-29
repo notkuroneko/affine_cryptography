@@ -7,6 +7,9 @@ Affine Cryptography is a method to cipher/decipher a message by replacing the ch
   C(x) = (a^-1)(x - b) mod 26 (x is the label of each character)
   
   a^-1 is the inverse of a. Since the set of value for a and a^-1 both contain the same values, its value has to be so that a(a^-1) mod 26 = 1.
+  
   The set of values for a and a^-1 is as the following:
+
   a    = {1, 3, 5,  7,  9, 11, 15, 17, 19, 21, 23, 25};
+  
   a^-1 = {1, 9, 21, 15, 3, 19, 7,  23, 11, 5,  17, 25};
