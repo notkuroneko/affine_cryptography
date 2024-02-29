@@ -17,13 +17,13 @@ void encode() {
     cin.ignore();
     cout << "Enter plain text (in uppercase): ";
     std::getline(std::cin, P);
-    cout << "Enter key a (a must be co-prime with 26): ";
+    cout << "Enter key a (a must be co-prime with and smaller than 26): ";
     cin >> a;
     while (!check(a)) {
         cout << "Invalid key, re-enter: ";
         cin >> a;
     }
-    cout << "Enter key b (b must be co-prime with 26): ";
+    cout << "Enter key b (b must be co-prime with and smaller than 26): ";
     cin >> b;
     while (!check(b)) {
         cout << "Invalid key, re-enter: " << endl;
@@ -44,14 +44,14 @@ void decode(){
     cin.ignore();
     cout << "Enter cipher text (in uppercase): ";
     std::getline(std::cin, C);
-    cout << "Enter key a (a must be co-prime with 26): ";
+    cout << "Enter key a (a must be co-prime with and smaller than 26): ";
     cin >> a;
     while (!check(a)) {
         cout << "Invalid key, re-enter: ";
         cin >> a;
     }
     a=check(a);
-    cout << "Enter key b (b must be co-prime with 26): ";
+    cout << "Enter key b (b must be co-prime with and smaller than 26): ";
     cin >> b;
     while (!check(b)) {
         cout << "Invalid key, re-enter: " << endl;
