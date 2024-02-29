@@ -69,7 +69,7 @@ void encode() {
     string P,C;
     int a,b;
     cin.ignore();
-    cout << "Enter plain text (in uppercase): ";
+    cout << "Enter plain text: ";
     std::getline(std::cin, P);
     cout << "Enter key a (a must be co-prime with and smaller than 26): ";
     cin >> a;
@@ -90,7 +90,7 @@ void decode(){
     string P,C;
     int a,b;
     cin.ignore();
-    cout << "Enter cipher text (in uppercase): ";
+    cout << "Enter cipher text: ";
     std::getline(std::cin, C);
     cout << "Enter key a (a must be co-prime with and smaller than 26): ";
     cin >> a;
